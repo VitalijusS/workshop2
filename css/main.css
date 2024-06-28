@@ -1,0 +1,109 @@
+body, body *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0A0119;
+    color: white;
+}
+.projectsContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.projectsContainer .projects{
+    margin: 2rem;
+}
+
+.projectsContainer .procjectPictureContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 1rem;
+}
+
+.projectsContainer .projectPicture {
+    margin: 1rem;
+
+}
+.projectsContainer img{
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+}
+.projectsContainer img:hover {
+    -webkit-filter: brightness(70%);
+    border: none;
+}
+.projectsContainer .tagContainer {
+    display: flex;
+    gap: 0.5rem  ;
+}
+.projectsContainer p {
+    margin: 0.5rem 0;
+}
+.projectsContainer .tagContainer .tag{
+    border: 2px solid white;
+    padding: 0.25rem 0.5rem ;
+    border-radius: 0.35rem;
+    font-size: 0.8rem;    
+}
+@media (max-width:750px) {
+    .projectsContainer .procjectPictureContainer {
+            grid-template-columns: 1fr;
+    }
+}
+footer{
+    margin-left: 1rem;
+}
+.contactsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+.contactsContainer .inMind{
+    font-size: 1rem;
+    margin: 0.2rem;
+}
+.contactsContainer .cMe{
+    margin: 0.2rem;
+    font-size: 2rem;
+}
+.contactsContainer .email{
+    margin: 0.2rem;
+    font-size: 2.5rem;
+}
+footer .linksContainer{
+    font-size: 2rem;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+}
+footer .links {
+}
+footer .links img{
+    margin: 0.5rem;
+    width: 25px;
+}
+footer .links a {
+    text-decoration: none;
+}
+header{
+    margin: 30px 30px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+header div{
+    margin: 1rem;
+}
+header div a{
+    margin: 1rem;
+    text-decoration: none;
+}
