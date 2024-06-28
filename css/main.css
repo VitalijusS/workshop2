@@ -51,9 +51,14 @@ body, body *{
     border-radius: 0.35rem;
     font-size: 0.8rem;    
 }
+@media (max-width:900px) {
+    .projectsContainer .procjectPictureContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (max-width:750px) {
     .projectsContainer .procjectPictureContainer {
-            grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
 footer{
