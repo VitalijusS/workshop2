@@ -34,10 +34,10 @@ body, body *{
     border-radius: 25px;
     border: none;
 }
-.projectsContainer img:hover {
+/* .projectsContainer img:hover {
     -webkit-filter: brightness(70%);
     border: none;
-}
+} */
 .projectsContainer .tagContainer {
     display: flex;
     gap: 0.5rem  ;
@@ -112,4 +112,51 @@ header div{
 header div a{
     margin: 1rem;
     text-decoration: none;
+}
+.procjectPictureContainer .imgContainer{
+    position: relative;
+}
+
+.procjectPictureContainer .imgContainer a {
+    padding: 0.5rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    display: none;
+}
+.procjectPictureContainer .imgContainer a {
+    padding: 0.5rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+}
+.procjectPictureContainer .imgContainer .live {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.procjectPictureContainer .imgContainer .code {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.procjectPictureContainer .imgContainer:hover a {
+    display: inline;
+    text-decoration: none;
+}
+.procjectPictureContainer .imgContainer:hover img {
+    -webkit-filter: brightness(60%);
+
+}
+.projectsContainer a:hover {
+    text-decoration:none;
+    color: #0A0119;
+    background-color: white;
+
 }
