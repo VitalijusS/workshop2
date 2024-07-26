@@ -31,7 +31,7 @@ body, body *{
 }
 .projectsContainer img{
     width: 100%;
-    border-radius: 25px;
+    border-radius: 8%;
     border: none;
 }
 /* .projectsContainer img:hover {
@@ -51,7 +51,7 @@ body, body *{
     border-radius: 0.35rem;
     font-size: 0.8rem;    
 }
-@media (max-width:900px) {
+@media (max-width:1000px) {
     .projectsContainer .procjectPictureContainer {
         grid-template-columns: 1fr 1fr;
     }
@@ -135,24 +135,19 @@ header div a{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
 }
 .procjectPictureContainer .imgContainer .code {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
 }
 .procjectPictureContainer .imgContainer:hover a {
     display: inline;
     text-decoration: none;
 }
 .procjectPictureContainer .imgContainer:hover img {
-    -webkit-filter: brightness(60%);
-
+    filter: brightness(60%);
 }
 .projectsContainer a:hover {
     text-decoration:none;
